@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameFinal">
+
+    <ImageView
+        android:id="@+id/Back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:contentDescription="Go Back"
+        android:src="@drawable/ic_back_black" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:background="@drawable/ripple_button_background"
+        android:fontFamily="@font/glacial_bold"
+        android:padding="@dimen/_5sdp"
+        android:text="There are many kinds of houses. Select the ones you have seen."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp">
+
+        //Hut
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hut"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:autofillHints="Hut"
+                android:src="@drawable/hut"
+                app:civ_border_width="@dimen/_5sdp"
+                app:civ_border_color="#000000"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/igloo"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginStart="@dimen/_130sdp"
+                android:autofillHints="Hut"
+                android:src="@drawable/igloo"
+                app:civ_border_width="@dimen/_5sdp"
+                app:civ_border_color="#000000"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/flat"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginStart="@dimen/_25sdp"
+                android:autofillHints="Hut"
+                android:src="@drawable/flat"
+                app:civ_border_width="@dimen/_5sdp"
+                app:civ_border_color="#000000"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bunglow"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginStart="@dimen/_130sdp"
+                android:autofillHints="Hut"
+                android:src="@drawable/bunglow"
+                app:civ_border_width="@dimen/_5sdp"
+                app:civ_border_color="#000000"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/drawable/ic_back.xml" value="0.106" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/drawable/ic_back_game.xml" value="0.106" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/drawable/ripple_button_background.xml" value="0.106" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_chapter.xml" value="0.1537037037037037" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_download.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_forgot_password.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_eng.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_final.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_general.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_general_knowledge.xml" value="0.18857142857142858" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_hindi.xml" value="0.18857142857142858" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_game_math.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_home.xml" value="0.12571428571428572" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_learn_in.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_learning.xml" value="0.14285714285714285" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_login.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_mind_map.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_podcast.xml" value="0.2296875" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_profile_creation.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_quiz.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_splash.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/activity_user_info.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/chapter_single_item.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/games_single_ui.xml" value="0.22037037037037038" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/home_card_single_item.xml" value="0.1" />
+        <entry key="..\:/all apps/TSS-main/app/src/main/res/layout/home_single_item.xml" value="0.22037037037037038" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameHindiChapSeven"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer The Following Questions "
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:textSize="@dimen/_20sdp"
+        android:background="@color/bluelight"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Hurray Correct Answer !! "
+        android:textSize="@dimen/_20sdp"
+        android:id="@+id/message"
+        android:visibility="invisible"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text= "Question  : "
+            android:textSize="@dimen/_15sdp"
+            android:id="@+id/level"
+            android:visibility="visible"
+            android:padding="@dimen/_5sdp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text= "Next Question : "
+            android:textSize="@dimen/_15sdp"
+            android:id="@+id/time"
+            android:visibility="invisible"
+            android:padding="@dimen/_5sdp"
+
+            android:textStyle="bold"
+            android:textColor="@color/teal_700" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_25sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/question"
+        android:text="This is the dummy question for the testing and checking items"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:textStyle="bold"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/monkey"
+            android:id="@+id/optionA"
+            android:visibility="visible"
+            android:padding="@dimen/_5sdp"
+            android:tag="incorrect"
+            android:background="@drawable/blackborder"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/monkey"
+            android:id="@+id/optionB"
+            android:visibility="visible"
+            android:padding="@dimen/_5sdp"
+            android:tag="incorrect"
+            android:background="@drawable/blackborder"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/textOptions"
+            android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textOA"
+                android:text="कचुये के फूच पर चढ़ने से"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/bluelight"
+                android:tag="incorrect"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textOB"
+                android:text="बंदर के पेड़ पर चढ़ने से"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/bluelight"
+                android:tag="incorrect"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textOC"
+                android:text="गिलहरी के पूँछ पर चढ़ने से"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@color/bluelight"
+                android:tag="incorrect"/>
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/monkey"
+        android:id="@+id/optionC"
+        android:visibility="visible"
+        android:padding="@dimen/_5sdp"
+        android:background="@drawable/blackborder"
+        android:tag="incorrect"/>
+
+
+</LinearLayout>

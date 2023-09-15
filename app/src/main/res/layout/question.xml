@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginEnd="@dimen/_5sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="____आज लगा दो झूला।"
+        android:id="@+id/question"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+
+        android:textSize="@dimen/_20sdp"
+        android:background="@color/bluelight"
+        android:gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_25sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="दादी"
+            android:id="@+id/optA"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:textSize="@dimen/_20sdp"
+            android:background="@drawable/opta"
+            android:gravity="center"
+            android:tag="A"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="मिठाई"
+            android:id="@+id/optB"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:textSize="@dimen/_20sdp"
+            android:background="@drawable/optb"
+            android:gravity="center"
+            android:tag="B"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="मिठाई"
+            android:id="@+id/optC"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:textSize="@dimen/_20sdp"
+            android:background="@drawable/optc"
+            android:gravity="center"
+            android:tag="C"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="मिठाई"
+            android:id="@+id/optD"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:textSize="@dimen/_20sdp"
+            android:background="@drawable/optd"
+            android:gravity="center"
+            android:tag="D"
+            android:layout_marginBottom="@dimen/_10sdp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
